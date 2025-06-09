@@ -1,0 +1,15 @@
+{
+    "vqvae_config": {
+        "lr": 0.001,
+        "total_iter": 500000,
+        "general_seed": 42,
+        "block_hidden_size": 128,
+        "num_residual_layers": 2,
+        "res_hidden_size": 32,
+        "embedding_dim": 32,
+        "num_embeddings": 128,
+        "commitment_cost": 0.25,
+        "compression_factor": 1,
+        "batch": 10
+    }
+}
